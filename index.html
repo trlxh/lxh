@@ -1,1 +1,91 @@
-123
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   唐人海 | 温柔皆是人间<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "微软雅黑", serif;
+            /* 古风渐变背景 */
+            background: linear-gradient(135deg, #2c3e50, #415a77, #1b263b);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #f0f5f9;
+            overflow: hidden;
+        }
+
+        /* 主容器 */
+        .main-box {
+            text-align: center;
+            padding: 40px 30px;
+            backdrop-filter: blur(8px);
+            background: rgba(255,255,255,0.05);
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+        }
+
+        /* 主标题 */
+        .title {
+            font-size: 48px;
+            letter-spacing: 8px;
+            margin-bottom: 20px;
+            color: #fff;
+            text-shadow: 0 0 15px rgba(173, 216, 230, 0.6);
+            animation: fade 3s ease-in-out infinite alternate;
+        }
+
+        /* 副标题文案 */
+        .desc {
+            font-size: 18px;
+            letter-spacing: 2px;
+            color: #cbd5e1;
+            line-height: 2;
+            margin: 10px 0;
+        }
+
+        /* 短句落款 */
+        .foot-text {
+            margin-top: 30px;
+            font-size: 15px;
+            color: #94a3b8;
+        }
+
+        /* 淡入呼吸动画 */
+        @keyframes fade {
+            from {
+                opacity: 0.8;
+                transform: translateY(0);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(-5px);
+            }
+        }
+
+        /* 适配手机 */
+        @media (max-width: 500px) {
+            .title {
+                font-size: 32px;
+                letter-spacing: 4px;
+            }
+            .desc {
+                font-size: 16px;
+            }
+        }
+    </style>
+<body>
+<div class="main<h1 class="title">唐</h1>
+<p class="desc">
+            唐风渡山海 风月入君怀<br>
+            山河皆无恙 温柔赴余生</p>
+<p class="foot-text">—— 人海漫漫</p></div>
+</html>
+
